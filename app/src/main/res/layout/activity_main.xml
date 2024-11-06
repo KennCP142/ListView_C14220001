@@ -8,6 +8,12 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="9"
+        android:id="@+id/search_bar"/>
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
